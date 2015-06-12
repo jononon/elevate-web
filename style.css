@@ -2,9 +2,8 @@ body{
    font-family: 'Roboto', sans-serif; 
 }
 h1 {
-  font-size: 2em;
+  font-size: 5em;
   font-weight: bold;
-  text-align: center;
 }
 
 .title {
@@ -41,6 +40,9 @@ html, body, .title {
     width: 100%;
 }
 
+.infoslide {
+   width: 75%;
+}
 
 menubar {
     position: fixed;
