@@ -1,0 +1,5 @@
+{
+    "require": {
+        "socalnick/orchestrate-php-client": "*"
+    }
+}
