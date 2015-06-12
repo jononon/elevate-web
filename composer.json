@@ -1,5 +1,7 @@
 {
     "require": {
-        "socalnick/orchestrate-php-client": "*"
+        "socalnick/orchestrate-php-client": "*",
+        "twig/twig":"~1.0"
+        
     }
 }

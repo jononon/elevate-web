@@ -2,18 +2,13 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="stickscripts.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js"></script>
     </head>
     <body>
         <title>&Eacute;levate</title>
-        <menubar>
-            <table style="width:75%;">
-                <tr>
-                    <td>Search</td>
-                    <td>About</td>
-                    <td>Founders</td>
-                </tr>
-            </table>
-        </menubar>
             <div style="background-color: rgb(49,207,218); color: #fff; height: 300px; line-height: 50%;">
                 <div style="width:485px; margin-left: auto; margin-right: auto;">
                     <br><br><br><br>
@@ -22,7 +17,15 @@
                     <img src=Assets/book.png>
                 </div>
             </div>
-        <hr>
+            <hr>
+        <div id="sticky-anchor"></div>
+        <div id="sticky" class="evenspace">
+            <div><a href="#search" class=nav-link>Search</a></div>
+            <div><a href="#projects" class=nav-link>About Us</a></div>
+            <div><a href="#social" class=nav-link>Social</a></div>
+            <div><a href="#hire" class=nav-link>Login</a></div>
+            <hr></hr>
+        </div>
         <center>
             <h2></h2>
             <div style="width: 75%;">
@@ -40,6 +43,7 @@
         <div style="width: 80%; margin-left: auto; margin-right: auto;">
             <h2>About Us</h2>
             <div>Unlike most tutoring services, only ours attempts to find you a peer tutor who has taken the courses you need trouble with at your school. </div>
+            <div>No other tutoring service can provide this level of customized tutoring, as they cannot attempt to match you with a student who has taken the same class as you before.</div>
         </div>
     </body>
 </html>
